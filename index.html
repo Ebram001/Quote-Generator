@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="ICON" href="http://www.noio.nl/favicon.ico"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center text-center pt-5 mt-5">
+        <div class="container" id="quote-container">
+            <h1>Quote of the Day</h1>
+            <div class="quote-text">
+                <i class="fas fa-quote-left fa-2xl"></i>
+                <span id="quote"></span>
+            </div>
+            <div class="button-container">
+                <button onclick="getQuotes()" class="btn border border-black bg-black text-white p-2 w-25" id="new-quote">New Quote</button>
+            </div>
+        </div>
+    </div>
+   
+
+    <!-- Script -->
+    <script src="JS/script.js"></script>
+</body>
+</html>
